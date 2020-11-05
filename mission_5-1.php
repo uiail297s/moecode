@@ -23,7 +23,7 @@ $sql = "CREATE TABLE IF NOT EXISTS mission5_1"
 ."name char(32),"
 ."comment varchar(256),"
 ."date DATETIME,"
-."pass INT"
+."pass INT"　//INTなのでパスワードは数字で入力
 .");";
 $stmt = $pdo -> query($sql);
 
